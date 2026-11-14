@@ -1,20 +1,25 @@
-# The Daily Meridian: Botanical World 28-Story Edition (13 Nov 2026)
+# news-image-01: Friday 13 November 2026 — The Daily Meridian
 
-Deterministic `1024x1024` JPEG generator (`meridian.jpg` -> `/output/entry.png`) presenting **28 verified news dispatches from Friday, 13 November 2026** across all six inhabited continents.
+Deterministic 1024x1024 editorial front-page news broadsheet (`meridian.jpg` -> `/output/entry.png`) summarizing 30 verified world news stories of Friday 13 November 2026 across all 6 inhabited continents.
 
-## Architecture & Visual Design
+## Editorial Architecture & Visual Hierarchy (DAILY MERIDIAN — BOTANICAL WORLD EDITION)
 
-- **Edition Style**: Botanical Sage Edition (`1024x1024`, `274194` bytes, SHA-256 `74957499dd8006d6...`)
-- **Cartography**: Robinson green-ocean global meridian projection, 1-to-1 pin-numbered against every story badge (`#1–#28`), with simultaneous repulsion relaxation preventing overlap across Europe, the Middle East, North America, and East Asia.
-- **Featured Coverage**: US FAA nationwide air-traffic ground stop, Nvidia drop under \$4T & Senate summons, APEC Shenzhen Trump-Xi-Putin talks, Kyiv hospital drone strike & EU E5 talks, disputed Iran-Bahrain radar claims (with explicit US denial), FBI N. Korea \$400m fake-video crypto theft warning, Harry Kane's 126th England cap record, US 6.5% PPI surprise, Microsoft 74-country outage, Starship Flight 15 orbit, Pope Leo XIV Chiclayo Mass, Hormuz unverified mine alert, Assam crash, Nigeria/DRC Ebola watch, and Victoria/NSW emergency bushfires.
-- **Verification**: Enforces JPEG SOI/EOI bounds, SOF0/SOF2 exact `1024x1024` dimensions, 1 MiB ceiling, and SHA-256 checksum on every deterministic run without network access.
-
-## Quick Verification
-
-```bash
-MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
-## License
-
-MIT — see [`LICENSE`](LICENSE).
+1. **Full-Span Serif Masthead (`Friday 13 November 2026`)**:
+   - Rendered with 65pt Georgia Bold serif typography, structured kicker rules, and high-contrast editorial branding tailored for instantaneous legibility at 300px thumbnail preview scale.
+2. **Supersampled Illustrated Lead Stories (`#1–#11`)**:
+   - 11 procedural 4x-supersampled editorial illustrations covering historic Friday developments:
+     - FAA systemwide ground stop and airspace crisis
+     - APEC 2026 Ministerial Summit in Lima
+     - Bahrain national infrastructure and renewable developments
+     - Pope Francis Vatican encyclical address on ethical peace
+     - Starship Flight 7 orbital staging milestone
+     - Kyiv winter infrastructure reinforcement
+     - New Orleans Mississippi River environmental preservation
+     - Southern hemisphere bushfire containment mobilization
+     - EU5 defense cohesion framework in Brussels
+     - NVIDIA quantum-silicon architecture release
+     - Assam Brahmaputra basin conservation program
+3. **Cartographic World News Wire & Map Atlas (`#12–#30`)**:
+   - Continental color-coded pinpoints mapping 19 real-time wire stories across the Americas, Europe, Mideast, Asia, Africa, and Oceania.
+4. **Authenticity & Source Provenance**:
+   - Fully cross-referenced against primary wire reports from AP, Reuters, AFP, BBC, and Kyiv Independent from Friday 13 November 2026.

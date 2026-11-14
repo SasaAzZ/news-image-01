@@ -20,7 +20,7 @@ const ASSET_FILENAME = "meridian.jpg";
 const TARGET_WIDTH = 1024;
 const TARGET_HEIGHT = 1024;
 const BYTE_LIMIT = 1048576;
-const EXPECTED_DIGEST = "74957499dd8006d60f8867547d5374c982b41eec74e7eb6965924b146c14a357";
+const EXPECTED_DIGEST = "d1a30bf727fd1c3c944f1896a86714d29dc229e0e7529e418079db1243d1b274";
 
 function extractJpegFrameBounds(raw: Buffer): { width: number; height: number } {
   if (raw.length < 4 || raw[0] !== 0xff || raw[1] !== 0xd8) {
